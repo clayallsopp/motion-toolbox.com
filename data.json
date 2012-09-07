@@ -16,6 +16,11 @@
             "url": "https://github.com/mattgreen/nitron",
             "description": "Nitron is an opinionated, loosely-coupled set of RubyMotion components designed to accelerate iOS development, especially with simpler iOS apps.",
             "tags": ["Models", "CoreData", "Bindings", "Storyboard"]
+        }, {
+            "name": "ProMotion",
+            "url": "https://github.com/clearsightstudio/ProMotion",
+            "description": "ProMotion is a new way to easily organize and develop RubyMotion apps using the concept of screens (similar to storyboards).",
+            "tags": ["Storyboard", "Screens"]
         }]
     }, {
         "name": "Models",
