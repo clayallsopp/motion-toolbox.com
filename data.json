@@ -57,6 +57,11 @@
             "url": "https://github.com/clayallsopp/Walt",
             "description": "Frictionless, hash-based iOS animations",
             "tags": ["Views","Animations"]
+        }, {
+            "name": "AccordionView",
+            "url": "https://github.com/toamitkumar/AccordionView",
+            "description": "Create and Add Accordion to your UIViews",
+            "tags": ["accordion"]
         }]
     }, {
         "name": "Testing",
