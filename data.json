@@ -126,6 +126,11 @@
             "url": "https://github.com/alexrothenberg/motion-addressbook",
             "description": "A RubyMotion wrapper around the iOS Address Book framework.",
             "tags": ["Address", "AddressBookUI"]
+        }, {
+            "name": "motionscan",
+            "url": "https://github.com/jjaffeux/Motionscan",
+            "description": "A RubyMotion wrapper around the image recognition SDK of Moodstocks.com",
+            "tags": ["Image recognition", "Scanner", "Barcode"]
         }]
     }]
 }
