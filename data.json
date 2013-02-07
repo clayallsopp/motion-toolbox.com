@@ -19,7 +19,7 @@
         }, {
             "name": "ProMotion",
             "url": "https://github.com/clearsightstudio/ProMotion",
-            "description": "ProMotion is a new way to easily organize and develop RubyMotion apps using the concept of screens (similar to storyboards).",
+            "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
             "tags": ["Storyboard", "Screens"]
         }]
     }, {
@@ -126,6 +126,11 @@
             "url": "https://github.com/alexrothenberg/motion-addressbook",
             "description": "A RubyMotion wrapper around the iOS Address Book framework.",
             "tags": ["Address", "AddressBookUI"]
+        }, {
+            "name": "Parsistence",
+            "url": "https://github.com/clearsightstudio/Parsistence",
+            "description": "A Parse.com wrapper similar to persistence.js.",
+            "tags": ["Models", "Storage", "Parse"]
         }]
     }]
 }
