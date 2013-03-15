@@ -141,6 +141,11 @@
             "url": "https://github.com/jjaffeux/Motionscan",
             "description": "A RubyMotion wrapper around the image recognition SDK of Moodstocks.com",
             "tags": ["Image Recognition", "AR", "Barcode", "Real-Time"]
+        }, {
+            "name": "can_i",
+            "url": "https://github.com/macfanatic/can_i",
+            "description": "A RubyMotion wrapper providing a simple DSL for role authorization, think a simplified CanCan.",
+            "tags": ["ACL", "Authorization", "CanCan"]
         }]
     }]
 }
