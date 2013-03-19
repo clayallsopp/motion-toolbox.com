@@ -80,6 +80,11 @@
             "url": "https://github.com/siuying/motion-stump",
             "description": "Stubbing and mocking for RubyMotion",
             "tags": ["Testing", "Mock"]
+        }, {
+            "name": "motion-frank",
+            "url": "https://github.com/cyrusinnovation/motion-frank",
+            "description": "A gem to use integration of frank-cucumber into RubyMotion projects.",
+            "tags": ["Testing", "Cucumber"]
         }]
     }, {
         "name": "Project Management",
