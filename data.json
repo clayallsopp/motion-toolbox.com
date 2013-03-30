@@ -156,6 +156,11 @@
             "url": "https://github.com/macfanatic/can_i",
             "description": "A RubyMotion wrapper providing a simple DSL for role authorization, similar to the CanCan gem.",
             "tags": ["ACL", "Authorization"]
+        }, {
+            "name": "motion-net-service",
+            "url": "https://github.com/fearoffish/motion-net-service",
+            "description": "A RubyMotion wrapper providing a simple DSL for the Bonjour (NSNetService) zero configuration network protocol.",
+            "tags": ["Bonjour", "NSNetService"]
         }]
     }]
 }
