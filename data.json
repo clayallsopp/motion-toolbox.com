@@ -103,6 +103,11 @@
             "url": "https://github.com/archan937/lock-o-motion",
             "description": "Require and mock Ruby gems (including their dependencies) within RubyMotion applications",
             "tags": ["Build", "Gems"]
+        }, {
+            "name": "motion-config-vars",
+            "url": "https://github.com/jamescallmebrent/motion-config-vars",
+            "description": "Heroku-style environment configuration for RubyMotion",
+            "tags": ["Environment", "Configuration", "API", "Adhoc"]
         }]
     }, {
         "name": "Specific",
