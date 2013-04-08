@@ -181,6 +181,11 @@
             "url": "https://github.com/weibel/MapKitWrapper",
             "description": "Make dealing with MapKit less painful for RubyMotion",
             "tags": ["MapKit", "Location"]
+        }, {
+            "name": "motion-inappmail",
+            "url": "https://github.com/Swatto/motion-inappmail",
+            "description": "A RubyMotion wrapper to use email form in your app (MFMailComposeViewController) in a simple rubish way.",
+            "tags": ["messageUI", "Views", "Email"]
         }]
     }]
 }
