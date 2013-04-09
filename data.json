@@ -186,6 +186,11 @@
             "url": "https://github.com/Swatto/motion-inappmail",
             "description": "A RubyMotion wrapper to use the email composer in your app.",
             "tags": ["messageUI", "Views", "Email"]
+        }, {
+            "name": "Joybox",
+            "url": "https://github.com/rubymotion/Joybox",
+            "description": "Cocos2D & Box2D Wrapper for Ruby Motion",
+            "tags": ["Video Games", "Cocos 2D", "Box 2D"]
         }]
     }]
 }
