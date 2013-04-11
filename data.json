@@ -69,6 +69,14 @@
             "tags": ["Views", "Auto Layout"]
         }]
     }, {
+        "name": "Controllers",
+        "wrappers": [{
+            "name": "Elevate",
+            "url": "https://github.com/mattgreen/elevate",
+            "description": "Streamline your RubyMotion view controllers.",
+            "tags": ["Controllers", "Concurrency"]
+        }]
+    }, {
         "name": "Testing",
         "wrappers": [{
             "name": "MotionFixtures",
