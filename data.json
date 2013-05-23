@@ -44,6 +44,11 @@
             "url": "https://github.com/siuying/NanoStoreInMotion",
             "description": "Wrapper for NanoStore, a lightweight schema-less key-value document database based on sqlite.",
             "tags": ["Models", "Storage"]
+        },{
+            "name": "MotionDataWrapper",
+            "url": "https://github.com/macfanatic/motion_data_wrapper",
+            "description": "Intuitive querying and persistence of CoreData models, using Xcode to define entities, validations, relationships and migrations.",
+            "tags": ["Models", "CoreData"]
         }]
     }, {
         "name": "Views",
