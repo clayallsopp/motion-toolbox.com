@@ -216,6 +216,11 @@
             "url": "https://github.com/fearoffish/motion-net-service",
             "description": "A RubyMotion wrapper providing a simple DSL for the Bonjour (NSNetService) zero configuration network protocol.",
             "tags": ["Bonjour", "NSNetService"]
+        }, {
+            "name": "Helu",
+            "url": "https://github.com/ivanacostarubio/helu",
+            "description": "A RubyMotion wrapper for the Store Kit Framework",
+            "tags": ["Store Kit", "In-App Purchases"]
         }]
     }]
 }
