@@ -134,9 +134,9 @@
             "description": "Expand RubyMotion build system to support building multiple apps from one project.",
             "tags": ["Build"]
         }, {
-            "name": "LockOMotion",
-            "url": "https://github.com/archan937/lock-o-motion",
-            "description": "Require and mock Ruby gems (including their dependencies) within RubyMotion applications.",
+            "name": "MotionBundler",
+            "url": "https://github.com/archan937/motion-bundler",
+            "description": "Require and mock Ruby gems (including their dependencies) within RubyMotion applications. Successor of LockOMotion",
             "tags": ["Build", "Gems"]
         }, {
             "name": "motion-config-vars",
