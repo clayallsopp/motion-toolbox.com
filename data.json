@@ -120,6 +120,11 @@
             "url": "https://github.com/chuyeow/facon",
             "description": "A port of Facon mocking library to RubyMotion.",
             "tags": ["Testing", "Mock"]
+        }, {
+            "name": "guard-motion",
+            "url": "https://github.com/mordaroso/guard-motion",
+            "description": "Guard::Motion automatically run your RubyMotion specs (much like autotest)",
+            "tags": ["Testing", "Spec"]
         }]
     }, {
         "name": "Project Management",
@@ -221,6 +226,29 @@
             "url": "https://github.com/ivanacostarubio/helu",
             "description": "A RubyMotion wrapper for the Store Kit Framework",
             "tags": ["Store Kit", "In-App Purchases"]
+        }, {
+            "name": "Motion Parse",
+            "url": "https://github.com/tkadauke/motion-parse",
+            "description": "Thin wrapper around the Parse SDK for RubyMotion.",
+            "tags": ["HTTP", "Notifications", "Social"]
+        }, {
+            "name": "ParseModel",
+            "url": "https://github.com/adelevie/ParseModel",
+            "description": "An Active Record pattern for your Parse models on RubyMotion.",
+            "tags": ["HTTP", "Notifications", "Social"]
+        }, {
+            "name": "motion-firebase",
+            "url": "https://github.com/colinta/motion-firebase",
+            "description": "A RubyMotion wrapper for the Firebase SDK. Adds more rubyesque methods to the built-in classes.",
+            "tags": ["Cloud"]
+        }]
+    }, {
+        "name": "Bootstrap",
+        "wrappers": [{
+            "name": "MotionTemplate",
+            "url": "https://github.com/IconoclastLabs/MotionTemplate",
+            "description": "A clean RubyMotion project for quickly templating a styled application. RubyMotion Template.",
+            "tags": ["Design", "Graphic"]
         }]
     }]
 }
