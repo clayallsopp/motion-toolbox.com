@@ -148,6 +148,11 @@
             "url": "https://github.com/jamescallmebrent/motion-config-vars",
             "description": "Heroku-style environment configuration for RubyMotion.",
             "tags": ["Environment", "Configuration", "API", "Adhoc"]
+        }, {
+            "name": "motion-xray",
+            "url": "https://github.com/colinta/motion-xray",
+            "description": "An iOS Inspector that runs inside your app, so you can debug and analyze from your device in real-world situations.",
+            "tags": ["Inspector", "Debugger", "Interactive Console"]
         }]
     }, {
         "name": "Specific",
