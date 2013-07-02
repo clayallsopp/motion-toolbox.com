@@ -264,6 +264,16 @@
             "url": "https://github.com/IconoclastLabs/MotionTemplate",
             "description": "A clean RubyMotion project for quickly templating a styled application.",
             "tags": ["Design", "Graphic"]
+        }, {
+            "name": "smart-ios",
+            "url": "https://github.com/IconoclastLabs/smart-ios",
+            "description": "Your basic RubyMotion ios template but with bundler.",
+            "tags": ["Design", "Graphic"]
+        }, {
+            "name": "ProMotion",
+            "url": "https://github.com/jamonholmgren/promotion-template",
+            "description": "Utlize the bells and whistles of ProMotion to hit the ground running.",
+            "tags": ["Design", "Graphic", "ProMotion"]
         }]
     }]
 }
