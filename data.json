@@ -256,6 +256,11 @@
             "description": "Making accessibility accessible. RubyMotion Wrappers around the UIAccessibility protocols. Easily interact with Apple's impressive array of assistive technologies, including VoiceOver.",
             "url": "https://github.com/austinseraphin/motion-accessibility",
             "tags": ["accessibility", "a11y", "voiceover"]
+       }, {
+	    "name": "motion-blitz",
+            "description": "RubyMotion wrapper for SVProgressHUD",
+            "url": "https://github.com/dblandin/motion-blitz",
+            "tags": ["Alert", "Progress", "Overlay"]
        }]
     }, {
         "name": "Templates",
