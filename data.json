@@ -199,7 +199,7 @@
         }, {
             "name": "motion-addressbook",
             "url": "https://github.com/alexrothenberg/motion-addressbook",
-            "description": "A RubyMotion wrapper around the iOS Address Book framework.",
+            "description": "A RubyMotion wrapper around the iOS & OSX Address Book frameworks.",
             "tags": ["Address", "AddressBookUI"]
         }, {
             "name": "motionscan",
