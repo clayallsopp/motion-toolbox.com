@@ -12,6 +12,11 @@
             "description": "These extensions hope to make development in RubyMotion more enjoyable by tacking 'UI' methods onto the base classes (String, Fixnum, Numeric). With sugarcube, you can create a color from an integer or symbol, or create a UIFont or UIImage from a string.",
             "tags": ["Animations", "CGRect", "UIImage", "UIColor", "NSString", "Symbol", "UIAlertView"]
         }, {
+            "name": "RubyMotionQuery - RMQ",
+            "url": "http://infinitered.com/rmq",
+            "description": "A light, non-magical, non-polluting, jQuery-like library",
+            "tags": ["Controllers", "Views", "Events", "Gestures", "Stylesheets", "iOS", "Animations", "UIImage", "UIColor", "UIFont", "Device", "App"]
+        }, {
             "name": "Elevate",
             "url": "https://github.com/mattgreen/elevate",
             "description": "Stop scattering your domain logic across your view controller. Consolidate it to a single conceptual unit with Elevate.",
