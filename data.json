@@ -1,294 +1,562 @@
 {
-    "categories": [{
-        "name": "General",
-        "wrappers": [{
-            "name": "BubbleWrap",
-            "url": "http://bubblewrap.io",
-            "description": "A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.",
-            "tags": ["JSON",  "HTTP", "RSS", "XML", "Camera", "CoreLocation", "Audio", "Video", "iOS", "OS X"]
-        }, {
-            "name": "Sugarcube",
-            "url": "https://github.com/rubymotion/sugarcube",
-            "description": "These extensions hope to make development in RubyMotion more enjoyable by tacking 'UI' methods onto the base classes (String, Fixnum, Numeric). With sugarcube, you can create a color from an integer or symbol, or create a UIFont or UIImage from a string.",
-            "tags": ["Animations", "CGRect", "UIImage", "UIColor", "NSString", "Symbol", "UIAlertView"]
-        }, {
-            "name": "RubyMotionQuery - RMQ",
-            "url": "http://infinitered.com/rmq",
-            "description": "A light, non-magical, non-polluting, jQuery-like library",
-            "tags": ["Controllers", "Views", "Events", "Gestures", "Stylesheets", "iOS", "Animations", "UIImage", "UIColor", "UIFont", "Device", "App"]
-        }, {
-            "name": "Elevate",
-            "url": "https://github.com/mattgreen/elevate",
-            "description": "Stop scattering your domain logic across your view controller. Consolidate it to a single conceptual unit with Elevate.",
-            "tags": ["Controllers", "Concurrency"]
-        }, {
-            "name": "Nitron",
-            "url": "https://github.com/mattgreen/nitron",
-            "description": "Nitron is an opinionated, loosely-coupled set of RubyMotion components designed to accelerate iOS development, especially with simpler iOS apps.",
-            "tags": ["Models", "CoreData", "Bindings", "Storyboard"]
-        }, {
-            "name": "ProMotion",
-            "url": "https://github.com/clearsightstudio/ProMotion",
-            "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
-            "tags": ["Storyboard", "Screens"]
-        }, {
-            "name": "motion-support",
-            "url": "https://github.com/tkadauke/motion-support",
-            "description": "A port of ActiveSupport to RubyMotion",
-            "tags": ["Models", "Rails"]
-        }]
-    }, {
-        "name": "Models",
-        "wrappers": [{
-            "name": "MotionModel",
-            "url": "https://github.com/sxross/MotionModel",
-            "description": "Simple Model, Validation, and Input Mixins for RubyMotion.",
-            "tags": ["Models", "Validation"]
-        }, {
-            "name": "NanoStoreInMotion",
-            "url": "https://github.com/siuying/NanoStoreInMotion",
-            "description": "Wrapper for NanoStore, a lightweight schema-less key-value document database based on sqlite.",
-            "tags": ["Models", "Storage"]
-        },{
-            "name": "MotionDataWrapper",
-            "url": "https://github.com/macfanatic/motion_data_wrapper",
-            "description": "Intuitive querying and persistence of CoreData models, using Xcode to define entities, validations, relationships and migrations.",
-            "tags": ["Models", "CoreData"]
-        }]
-    }, {
-        "name": "Views",
-        "wrappers": [{
-            "name": "Formotion",
-            "url": "https://github.com/clayallsopp/formotion",
-            "description": "Painless, productive views on iOS.",
-            "tags": ["Views", "UITableView"]
-        }, {
-            "name": "Teacup",
-            "url": "https://github.com/rubymotion/teacup",
-            "description": "A community-driven DSL for creating user interfaces on the iPhone.",
-            "tags": ["Views", "Stylesheets", "iOS", "OS X"]
-        }, {
-            "name": "Geomotion",
-            "url": "https://github.com/clayallsopp/geomotion",
-            "description": "Better iOS Geometry with RubyMotion.",
-            "tags": ["CGRect"]
-        }, {
-            "name": "Walt",
-            "url": "https://github.com/clayallsopp/Walt",
-            "description": "Frictionless, hash-based iOS animations.",
-            "tags": ["Views","Animations"]
-        }, {
-            "name": "AccordionView",
-            "url": "https://github.com/toamitkumar/AccordionView",
-            "description": "Create and add Accordions to your UIViews.",
-            "tags": ["Views","Accordion"]
-        }, {
-            "name": "motion-layout",
-            "url": "https://github.com/qrush/motion-layout",
-            "description": "A nice way to use Auto Layout in your RubyMotion app.",
-            "tags": ["Views", "Auto Layout"]
-        }]
-    }, {
-        "name": "Testing",
-        "wrappers": [{
-            "name": "MotionFixtures",
-            "url": "https://github.com/farcaller/motion-fixtures",
-            "description": "Simple support for test fixtures.",
-            "tags": ["Testing", "Fixtures"]
-        }, {
-            "name": "WebStub",
-            "url": "https://github.com/mattgreen/webstub",
-            "description": "Easily stub out HTTP responses in RubyMotion specs.",
-            "tags": ["Testing", "HTTP", "Mock"]
-        }, {
-            "name": "motion-stump",
-            "url": "https://github.com/siuying/motion-stump",
-            "description": "Stubbing and mocking for RubyMotion.",
-            "tags": ["Testing", "Mock"]
-        }, {
-            "name": "motion-frank",
-            "url": "https://github.com/cyrusinnovation/motion-frank",
-            "description": "A gem to use integrate frank-cucumber into RubyMotion projects.",
-            "tags": ["Testing", "Cucumber"]
-        }, {
-            "name": "awesome_print_motion",
-            "url": "https://github.com/michaeldv/awesome_print_motion",
-            "description": "A port of the awesome_print gem to RubyMotion.",
-            "tags": ["Debug", "Logging"]
-        }, {
-            "name": "motion-colorize",
-            "url": "https://github.com/clayallsopp/motion-colorize",
-            "description": "Add some color to your RubyMotion output.",
-            "tags": ["Debug", "Logging"]
-        }, {
-            "name": "motion-facon",
-            "url": "https://github.com/chuyeow/facon",
-            "description": "A port of Facon mocking library to RubyMotion.",
-            "tags": ["Testing", "Mock"]
-        }, {
-            "name": "guard-motion",
-            "url": "https://github.com/mordaroso/guard-motion",
-            "description": "Guard::Motion automatically run your RubyMotion specs (much like autotest)",
-            "tags": ["Testing", "Spec"]
-        }]
-    }, {
-        "name": "Project Management",
-        "wrappers": [{
-            "name": "IB",
-            "url": "https://github.com/yury/ib",
-            "description": "RubyMotion Interface Builder support, including outlets and actions.",
-            "tags": ["Interface Builder"]
-        }, {
-            "name": "motion-schemes",
-            "url": "https://github.com/siuying/motion-schemes",
-            "description": "Expand RubyMotion build system to support building multiple apps from one project.",
-            "tags": ["Build"]
-        }, {
-            "name": "motion-config-vars",
-            "url": "https://github.com/jamescallmebrent/motion-config-vars",
-            "description": "Heroku-style environment configuration for RubyMotion.",
-            "tags": ["Environment", "Configuration", "API", "Adhoc"]
-        }, {
-            "name": "MotionBundler",
-            "url": "https://github.com/archan937/motion-bundler",
-            "description": "Require and mock Ruby gems (including their dependencies) within RubyMotion applications.",
-            "tags": ["Build", "Gems"]
-        }, {
-            "name": "motion-xray",
-            "url": "https://github.com/colinta/motion-xray",
-            "description": "An iOS Inspector that runs inside your app, so you can debug and analyze from your device in real-world situations.",
-            "tags": ["Inspector", "Debugger", "Interactive Console"]
-        }]
-    }, {
-        "name": "Specific",
-        "wrappers": [{
-            "name": "AFMotion",
-            "url": "https://github.com/clayallsopp/afmotion",
-            "description": "A RubyMotion wrapper for AFNetworking.",
-            "tags": ["HTTP"]
-        }, {
-            "name": "Motion-Plot",
-            "url": "https://github.com/toamitkumar/motion-plot",
-            "description": "A RubyMotion wrapper for CorePlot.",
-            "tags": ["Charts", "Graphs", "CorePlot"]
-        }, {
-            "name": "ParseModel",
-            "url": "https://github.com/adelevie/ParseModel",
-            "description": "An Active Record pattern for your Parse models.",
-            "tags": ["Models", "Storage", "Parse"]
-        }, {
-            "name": "Motion Parse",
-            "url": "https://github.com/tkadauke/motion-parse",
-            "description": "Thin wrapper around the Parse SDK for RubyMotion.",
-            "tags": ["HTTP", "Notifications", "Social"]
-        }, {
-            "name": "Parsistence",
-            "url": "https://github.com/clearsightstudio/Parsistence",
-            "description": "A Parse.com wrapper similar to persistence.js.",
-            "tags": ["Models", "Storage", "Parse"]
-        }, {
-            "name": "Twittermotion",
-            "url": "https://github.com/clayallsopp/twittermotion",
-            "description": "RubyMotion wrapper for the iOS Twitter API.",
-            "tags": ["Twitter"]
-        }, {
-            "name": "motion-state-machine",
-            "url": "https://github.com/opyh/motion-state-machine",
-            "description": "A Grand Central-aware, simple syntax for state machines.",
-            "tags": ["Views"]
-        }, {
-            "name": "motion-ocr",
-            "url": "https://github.com/ferdev/motion-ocr",
-            "description": "A RubyMotion wrapper for the OCR engine Tesseract.",
-            "tags": ["OCR"]
-        }, {
-            "name": "motion-addressbook",
-            "url": "https://github.com/alexrothenberg/motion-addressbook",
-            "description": "A RubyMotion wrapper around the iOS & OSX Address Book frameworks.",
-            "tags": ["Address", "AddressBookUI"]
-        }, {
-            "name": "motionscan",
-            "url": "https://github.com/jjaffeux/Motionscan",
-            "description": "A RubyMotion wrapper around the image recognition SDK of Moodstocks.com.",
-            "tags": ["Image Recognition", "AR", "Barcode", "Real-Time"]
-        }, {
-            "name": "MapKitWrapper",
-            "url": "https://github.com/weibel/MapKitWrapper",
-            "description": "Make dealing with MapKit less painful for RubyMotion.",
-            "tags": ["MapKit", "Location"]
-        }, {
-            "name": "can_i",
-            "url": "https://github.com/macfanatic/can_i",
-            "description": "A RubyMotion wrapper providing a simple DSL for role authorization, similar to the CanCan gem.",
-            "tags": ["ACL", "Authorization"]
-        }, {
-            "name": "motion-inappmail",
-            "url": "https://github.com/Swatto/motion-inappmail",
-            "description": "A RubyMotion wrapper to use the email composer in your app.",
-            "tags": ["MessageUI", "Views", "Email"]
-        }, {
-            "name": "Joybox",
-            "url": "https://github.com/rubymotion/Joybox",
-            "description": "Cocos2D & Box2D Wrapper for RubyMotion.",
-            "tags": ["Video Games", "Cocos 2D", "Box 2D", "iOS", "OS X"]
-        }, {
-            "name": "Helu",
-            "url": "https://github.com/ivanacostarubio/helu",
-            "description": "A RubyMotion wrapper for the Store Kit Framework",
-            "tags": ["Store Kit", "In-App Purchases"]
-        }, {
-            "name": "motion-net-service",
-            "url": "https://github.com/fearoffish/motion-net-service",
-            "description": "A RubyMotion wrapper providing a simple DSL for the Bonjour (NSNetService) zero configuration network protocol.",
-            "tags": ["Bonjour", "NSNetService"]
-        }, {
-            "name": "motion-firebase",
-            "url": "https://github.com/colinta/motion-firebase",
-            "description": "A RubyMotion wrapper for the Firebase SDK.",
-            "tags": ["Firebase", "Cloud"]
-        }, {
-            "name": "simple_si",
-            "url": "https://github.com/Sumi-Interactive/SIAlertView",
-            "description": "A RubyMotion wrapper for SIAlertView",
-            "tags": ["Alert"]
-        }, {
-            "name": "motion-phrase",
-            "url": "https://github.com/phrase/motion-phrase",
-            "description": "Connect your RubyMotion project with <a href=\"https://phraseapp.com\" target=\"_blank\">PhraseApp</a> for easy app internationalization. Translatable strings are exported while browsing the app and then managable through the PhraseApp translation editor.",
-            "tags": ["Internationalization", "i18n", "Localization", "l10n"]
-	}, {
-	    "name": "motion-accessibility",
-            "description": "Making accessibility accessible. RubyMotion Wrappers around the UIAccessibility protocols. Easily interact with Apple's impressive array of assistive technologies, including VoiceOver.",
-            "url": "https://github.com/austinseraphin/motion-accessibility",
-            "tags": ["accessibility", "a11y", "voiceover"]
-       }, {
-	          "name": "motion-blitz",
-            "description": "RubyMotion wrapper for SVProgressHUD",
-            "url": "https://github.com/dblandin/motion-blitz",
-            "tags": ["Alert", "Progress", "Overlay"]
-       }, {
-	          "name": "motion-objection",
-            "description": "RubyMotion wrapper for Objection",
-            "url": "https://github.com/atomicobject/motion-objection",
-            "tags": ["Dependency Injection"]
-       }]
-    }, {
-        "name": "Templates",
-        "wrappers": [{
-            "name": "MotionTemplate",
-            "url": "https://github.com/IconoclastLabs/MotionTemplate",
-            "description": "A clean RubyMotion project for quickly templating a styled application.",
-            "tags": ["Design", "Graphic"]
-        }, {
-            "name": "smart-ios",
-            "url": "https://github.com/IconoclastLabs/smart-ios",
-            "description": "Your basic RubyMotion ios template but with bundler.",
-            "tags": ["Design", "Graphic"]
-        }, {
-            "name": "ProMotion",
-            "url": "https://github.com/jamonholmgren/promotion-template",
-            "description": "Utlize the bells and whistles of ProMotion to hit the ground running.",
-            "tags": ["Design", "Graphic", "ProMotion"]
-        }]
-    }]
+  "categories": [
+    {
+      "name": "General",
+      "wrappers": [
+        {
+          "name": "BubbleWrap",
+          "url": "http://bubblewrap.io",
+          "description": "A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.",
+          "tags": [
+            "JSON",
+            "HTTP",
+            "RSS",
+            "XML",
+            "Camera",
+            "CoreLocation",
+            "Audio",
+            "Video",
+            "iOS",
+            "OS X"
+          ]
+        },
+        {
+          "name": "Sugarcube",
+          "url": "https://github.com/rubymotion/sugarcube",
+          "description": "These extensions hope to make development in RubyMotion more enjoyable by tacking 'UI' methods onto the base classes (String, Fixnum, Numeric). With sugarcube, you can create a color from an integer or symbol, or create a UIFont or UIImage from a string.",
+          "tags": [
+            "Animations",
+            "CGRect",
+            "UIImage",
+            "UIColor",
+            "NSString",
+            "Symbol",
+            "UIAlertView"
+          ]
+        },
+        {
+          "name": "RubyMotionQuery - RMQ",
+          "url": "http://infinitered.com/rmq",
+          "description": "A light, non-magical, non-polluting, jQuery-like library",
+          "tags": [
+            "Controllers",
+            "Views",
+            "Events",
+            "Gestures",
+            "Stylesheets",
+            "iOS",
+            "Animations",
+            "UIImage",
+            "UIColor",
+            "UIFont",
+            "Device",
+            "App"
+          ]
+        },
+        {
+          "name": "Elevate",
+          "url": "https://github.com/mattgreen/elevate",
+          "description": "Stop scattering your domain logic across your view controller. Consolidate it to a single conceptual unit with Elevate.",
+          "tags": [
+            "Controllers",
+            "Concurrency"
+          ]
+        },
+        {
+          "name": "Nitron",
+          "url": "https://github.com/mattgreen/nitron",
+          "description": "Nitron is an opinionated, loosely-coupled set of RubyMotion components designed to accelerate iOS development, especially with simpler iOS apps.",
+          "tags": [
+            "Models",
+            "CoreData",
+            "Bindings",
+            "Storyboard"
+          ]
+        },
+        {
+          "name": "ProMotion",
+          "url": "https://github.com/clearsightstudio/ProMotion",
+          "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
+          "tags": [
+            "Storyboard",
+            "Screens"
+          ]
+        },
+        {
+          "name": "motion-support",
+          "url": "https://github.com/tkadauke/motion-support",
+          "description": "A port of ActiveSupport to RubyMotion",
+          "tags": [
+            "Models",
+            "Rails"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Models",
+      "wrappers": [
+        {
+          "name": "MotionModel",
+          "url": "https://github.com/sxross/MotionModel",
+          "description": "Simple Model, Validation, and Input Mixins for RubyMotion.",
+          "tags": [
+            "Models",
+            "Validation"
+          ]
+        },
+        {
+          "name": "NanoStoreInMotion",
+          "url": "https://github.com/siuying/NanoStoreInMotion",
+          "description": "Wrapper for NanoStore, a lightweight schema-less key-value document database based on sqlite.",
+          "tags": [
+            "Models",
+            "Storage"
+          ]
+        },
+        {
+          "name": "MotionDataWrapper",
+          "url": "https://github.com/macfanatic/motion_data_wrapper",
+          "description": "Intuitive querying and persistence of CoreData models, using Xcode to define entities, validations, relationships and migrations.",
+          "tags": [
+            "Models",
+            "CoreData"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Views",
+      "wrappers": [
+        {
+          "name": "Formotion",
+          "url": "https://github.com/clayallsopp/formotion",
+          "description": "Painless, productive views on iOS.",
+          "tags": [
+            "Views",
+            "UITableView"
+          ]
+        },
+        {
+          "name": "Teacup",
+          "url": "https://github.com/rubymotion/teacup",
+          "description": "A community-driven DSL for creating user interfaces on the iPhone.",
+          "tags": [
+            "Views",
+            "Stylesheets",
+            "iOS",
+            "OS X"
+          ]
+        },
+        {
+          "name": "Geomotion",
+          "url": "https://github.com/clayallsopp/geomotion",
+          "description": "Better iOS Geometry with RubyMotion.",
+          "tags": [
+            "CGRect"
+          ]
+        },
+        {
+          "name": "Walt",
+          "url": "https://github.com/clayallsopp/Walt",
+          "description": "Frictionless, hash-based iOS animations.",
+          "tags": [
+            "Views",
+            "Animations"
+          ]
+        },
+        {
+          "name": "AccordionView",
+          "url": "https://github.com/toamitkumar/AccordionView",
+          "description": "Create and add Accordions to your UIViews.",
+          "tags": [
+            "Views",
+            "Accordion"
+          ]
+        },
+        {
+          "name": "motion-layout",
+          "url": "https://github.com/qrush/motion-layout",
+          "description": "A nice way to use Auto Layout in your RubyMotion app.",
+          "tags": [
+            "Views",
+            "Auto Layout"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "wrappers": [
+        {
+          "name": "MotionFixtures",
+          "url": "https://github.com/farcaller/motion-fixtures",
+          "description": "Simple support for test fixtures.",
+          "tags": [
+            "Testing",
+            "Fixtures"
+          ]
+        },
+        {
+          "name": "WebStub",
+          "url": "https://github.com/mattgreen/webstub",
+          "description": "Easily stub out HTTP responses in RubyMotion specs.",
+          "tags": [
+            "Testing",
+            "HTTP",
+            "Mock"
+          ]
+        },
+        {
+          "name": "motion-stump",
+          "url": "https://github.com/siuying/motion-stump",
+          "description": "Stubbing and mocking for RubyMotion.",
+          "tags": [
+            "Testing",
+            "Mock"
+          ]
+        },
+        {
+          "name": "motion-frank",
+          "url": "https://github.com/cyrusinnovation/motion-frank",
+          "description": "A gem to use integrate frank-cucumber into RubyMotion projects.",
+          "tags": [
+            "Testing",
+            "Cucumber"
+          ]
+        },
+        {
+          "name": "awesome_print_motion",
+          "url": "https://github.com/michaeldv/awesome_print_motion",
+          "description": "A port of the awesome_print gem to RubyMotion.",
+          "tags": [
+            "Debug",
+            "Logging"
+          ]
+        },
+        {
+          "name": "motion-colorize",
+          "url": "https://github.com/clayallsopp/motion-colorize",
+          "description": "Add some color to your RubyMotion output.",
+          "tags": [
+            "Debug",
+            "Logging"
+          ]
+        },
+        {
+          "name": "motion-facon",
+          "url": "https://github.com/chuyeow/facon",
+          "description": "A port of Facon mocking library to RubyMotion.",
+          "tags": [
+            "Testing",
+            "Mock"
+          ]
+        },
+        {
+          "name": "guard-motion",
+          "url": "https://github.com/mordaroso/guard-motion",
+          "description": "Guard::Motion automatically run your RubyMotion specs (much like autotest)",
+          "tags": [
+            "Testing",
+            "Spec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Project Management",
+      "wrappers": [
+        {
+          "name": "IB",
+          "url": "https://github.com/yury/ib",
+          "description": "RubyMotion Interface Builder support, including outlets and actions.",
+          "tags": [
+            "Interface Builder"
+          ]
+        },
+        {
+          "name": "motion-schemes",
+          "url": "https://github.com/siuying/motion-schemes",
+          "description": "Expand RubyMotion build system to support building multiple apps from one project.",
+          "tags": [
+            "Build"
+          ]
+        },
+        {
+          "name": "motion-config-vars",
+          "url": "https://github.com/jamescallmebrent/motion-config-vars",
+          "description": "Heroku-style environment configuration for RubyMotion.",
+          "tags": [
+            "Environment",
+            "Configuration",
+            "API",
+            "Adhoc"
+          ]
+        },
+        {
+          "name": "MotionBundler",
+          "url": "https://github.com/archan937/motion-bundler",
+          "description": "Require and mock Ruby gems (including their dependencies) within RubyMotion applications.",
+          "tags": [
+            "Build",
+            "Gems"
+          ]
+        },
+        {
+          "name": "motion-xray",
+          "url": "https://github.com/colinta/motion-xray",
+          "description": "An iOS Inspector that runs inside your app, so you can debug and analyze from your device in real-world situations.",
+          "tags": [
+            "Inspector",
+            "Debugger",
+            "Interactive Console"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Specific",
+      "wrappers": [
+        {
+          "name": "AFMotion",
+          "url": "https://github.com/clayallsopp/afmotion",
+          "description": "A RubyMotion wrapper for AFNetworking.",
+          "tags": [
+            "HTTP"
+          ]
+        },
+        {
+          "name": "Motion-Plot",
+          "url": "https://github.com/toamitkumar/motion-plot",
+          "description": "A RubyMotion wrapper for CorePlot.",
+          "tags": [
+            "Charts",
+            "Graphs",
+            "CorePlot"
+          ]
+        },
+        {
+          "name": "ParseModel",
+          "url": "https://github.com/adelevie/ParseModel",
+          "description": "An Active Record pattern for your Parse models.",
+          "tags": [
+            "Models",
+            "Storage",
+            "Parse"
+          ]
+        },
+        {
+          "name": "Motion Parse",
+          "url": "https://github.com/tkadauke/motion-parse",
+          "description": "Thin wrapper around the Parse SDK for RubyMotion.",
+          "tags": [
+            "HTTP",
+            "Notifications",
+            "Social"
+          ]
+        },
+        {
+          "name": "Parsistence",
+          "url": "https://github.com/clearsightstudio/Parsistence",
+          "description": "A Parse.com wrapper similar to persistence.js.",
+          "tags": [
+            "Models",
+            "Storage",
+            "Parse"
+          ]
+        },
+        {
+          "name": "Twittermotion",
+          "url": "https://github.com/clayallsopp/twittermotion",
+          "description": "RubyMotion wrapper for the iOS Twitter API.",
+          "tags": [
+            "Twitter"
+          ]
+        },
+        {
+          "name": "motion-state-machine",
+          "url": "https://github.com/opyh/motion-state-machine",
+          "description": "A Grand Central-aware, simple syntax for state machines.",
+          "tags": [
+            "Views"
+          ]
+        },
+        {
+          "name": "motion-ocr",
+          "url": "https://github.com/ferdev/motion-ocr",
+          "description": "A RubyMotion wrapper for the OCR engine Tesseract.",
+          "tags": [
+            "OCR"
+          ]
+        },
+        {
+          "name": "motion-addressbook",
+          "url": "https://github.com/alexrothenberg/motion-addressbook",
+          "description": "A RubyMotion wrapper around the iOS & OSX Address Book frameworks.",
+          "tags": [
+            "Address",
+            "AddressBookUI"
+          ]
+        },
+        {
+          "name": "motionscan",
+          "url": "https://github.com/jjaffeux/Motionscan",
+          "description": "A RubyMotion wrapper around the image recognition SDK of Moodstocks.com.",
+          "tags": [
+            "Image Recognition",
+            "AR",
+            "Barcode",
+            "Real-Time"
+          ]
+        },
+        {
+          "name": "MapKitWrapper",
+          "url": "https://github.com/weibel/MapKitWrapper",
+          "description": "Make dealing with MapKit less painful for RubyMotion.",
+          "tags": [
+            "MapKit",
+            "Location"
+          ]
+        },
+        {
+          "name": "can_i",
+          "url": "https://github.com/macfanatic/can_i",
+          "description": "A RubyMotion wrapper providing a simple DSL for role authorization, similar to the CanCan gem.",
+          "tags": [
+            "ACL",
+            "Authorization"
+          ]
+        },
+        {
+          "name": "motion-inappmail",
+          "url": "https://github.com/Swatto/motion-inappmail",
+          "description": "A RubyMotion wrapper to use the email composer in your app.",
+          "tags": [
+            "MessageUI",
+            "Views",
+            "Email"
+          ]
+        },
+        {
+          "name": "Joybox",
+          "url": "https://github.com/rubymotion/Joybox",
+          "description": "Cocos2D & Box2D Wrapper for RubyMotion.",
+          "tags": [
+            "Video Games",
+            "Cocos 2D",
+            "Box 2D",
+            "iOS",
+            "OS X"
+          ]
+        },
+        {
+          "name": "Helu",
+          "url": "https://github.com/ivanacostarubio/helu",
+          "description": "A RubyMotion wrapper for the Store Kit Framework",
+          "tags": [
+            "Store Kit",
+            "In-App Purchases"
+          ]
+        },
+        {
+          "name": "motion-net-service",
+          "url": "https://github.com/fearoffish/motion-net-service",
+          "description": "A RubyMotion wrapper providing a simple DSL for the Bonjour (NSNetService) zero configuration network protocol.",
+          "tags": [
+            "Bonjour",
+            "NSNetService"
+          ]
+        },
+        {
+          "name": "motion-firebase",
+          "url": "https://github.com/colinta/motion-firebase",
+          "description": "A RubyMotion wrapper for the Firebase SDK.",
+          "tags": [
+            "Firebase",
+            "Cloud"
+          ]
+        },
+        {
+          "name": "simple_si",
+          "url": "https://github.com/Sumi-Interactive/SIAlertView",
+          "description": "A RubyMotion wrapper for SIAlertView",
+          "tags": [
+            "Alert"
+          ]
+        },
+        {
+          "name": "motion-phrase",
+          "url": "https://github.com/phrase/motion-phrase",
+          "description": "Connect your RubyMotion project with <a href=\"https://phraseapp.com\" target=\"_blank\">PhraseApp</a> for easy app internationalization. Translatable strings are exported while browsing the app and then managable through the PhraseApp translation editor.",
+          "tags": [
+            "Internationalization",
+            "i18n",
+            "Localization",
+            "l10n"
+          ]
+        },
+        {
+          "name": "motion-accessibility",
+          "description": "Making accessibility accessible. RubyMotion Wrappers around the UIAccessibility protocols. Easily interact with Apple's impressive array of assistive technologies, including VoiceOver.",
+          "url": "https://github.com/austinseraphin/motion-accessibility",
+          "tags": [
+            "accessibility",
+            "a11y",
+            "voiceover"
+          ]
+        },
+        {
+          "name": "motion-blitz",
+          "description": "RubyMotion wrapper for SVProgressHUD",
+          "url": "https://github.com/dblandin/motion-blitz",
+          "tags": [
+            "Alert",
+            "Progress",
+            "Overlay"
+          ]
+        },
+        {
+          "name": "motion-objection",
+          "description": "RubyMotion wrapper for Objection",
+          "url": "https://github.com/atomicobject/motion-objection",
+          "tags": [
+            "Dependency Injection"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Templates",
+      "wrappers": [
+        {
+          "name": "MotionTemplate",
+          "url": "https://github.com/IconoclastLabs/MotionTemplate",
+          "description": "A clean RubyMotion project for quickly templating a styled application.",
+          "tags": [
+            "Design",
+            "Graphic"
+          ]
+        },
+        {
+          "name": "smart-ios",
+          "url": "https://github.com/IconoclastLabs/smart-ios",
+          "description": "Your basic RubyMotion ios template but with bundler.",
+          "tags": [
+            "Design",
+            "Graphic"
+          ]
+        },
+        {
+          "name": "ProMotion",
+          "url": "https://github.com/jamonholmgren/promotion-template",
+          "description": "Utlize the bells and whistles of ProMotion to hit the ground running.",
+          "tags": [
+            "Design",
+            "Graphic",
+            "ProMotion"
+          ]
+        }
+      ]
+    }
+  ]
 }
