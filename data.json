@@ -271,6 +271,11 @@
             "description": "RubyMotion wrapper for Objection",
             "url": "https://github.com/atomicobject/motion-objection",
             "tags": ["Dependency Injection"]
+       }, {
+           "name": "RackMotion",
+           "url": "https://github.com/drewbug/RackMotion",
+           "description": "Intercept and alter HTTP requests and responses in RubyMotion",
+           "tags": ["HTTP"]
        }]
     }, {
         "name": "Templates",
