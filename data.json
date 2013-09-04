@@ -248,7 +248,7 @@
             "tags": ["Firebase", "Cloud"]
         }, {
             "name": "simple_si",
-            "url": "https://github.com/Sumi-Interactive/SIAlertView",
+            "url": "https://github.com/forrestgrant/simple_si",
             "description": "A RubyMotion wrapper for SIAlertView",
             "tags": ["Alert"]
         }, {
