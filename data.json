@@ -256,27 +256,32 @@
             "url": "https://github.com/phrase/motion-phrase",
             "description": "Connect your RubyMotion project with <a href=\"https://phraseapp.com\" target=\"_blank\">PhraseApp</a> for easy app internationalization. Translatable strings are exported while browsing the app and then managable through the PhraseApp translation editor.",
             "tags": ["Internationalization", "i18n", "Localization", "l10n"]
-	}, {
-	    "name": "motion-accessibility",
+	      }, {
+	          "name": "motion-accessibility",
             "description": "Making accessibility accessible. RubyMotion Wrappers around the UIAccessibility protocols. Easily interact with Apple's impressive array of assistive technologies, including VoiceOver.",
             "url": "https://github.com/austinseraphin/motion-accessibility",
             "tags": ["accessibility", "a11y", "voiceover"]
-       }, {
-	    "name": "motion-blitz",
+        }, {
+	          "name": "motion-blitz",
             "description": "RubyMotion wrapper for SVProgressHUD",
             "url": "https://github.com/dblandin/motion-blitz",
             "tags": ["Alert", "Progress", "Overlay"]
-       }, {
-	    "name": "motion-objection",
+        }, {
+	          "name": "motion-objection",
             "description": "RubyMotion wrapper for Objection",
             "url": "https://github.com/atomicobject/motion-objection",
             "tags": ["Dependency Injection"]
-       }, {
-           "name": "RackMotion",
-           "url": "https://github.com/drewbug/RackMotion",
-           "description": "Intercept and alter HTTP requests and responses in RubyMotion",
-           "tags": ["HTTP"]
-       }]
+        }, {
+            "name": "RackMotion",
+            "url": "https://github.com/drewbug/RackMotion",
+            "description": "Intercept and alter HTTP requests and responses in RubyMotion",
+            "tags": ["HTTP"]
+        }, {
+            "name": "StatusBar",
+            "description": "Notifications for the statusbar.",
+            "url": "https://github.com/holgersindbaek/StatusBar",
+            "tags": ["Alert", "Progress", "Overlay"]
+        }]
     }, {
         "name": "Templates",
         "wrappers": [{
