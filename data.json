@@ -237,6 +237,11 @@
             "description": "A RubyMotion wrapper for the Store Kit Framework",
             "tags": ["Store Kit", "In-App Purchases"]
         }, {
+            "name": "Motion-Social",
+            "url": "https://github.com/ivanacostarubio/motion-social",
+            "description": "Wrapper around the Social Framework",
+            "tags": ["Social"]
+        }, {
             "name": "motion-net-service",
             "url": "https://github.com/fearoffish/motion-net-service",
             "description": "A RubyMotion wrapper providing a simple DSL for the Bonjour (NSNetService) zero configuration network protocol.",
