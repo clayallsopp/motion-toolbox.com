@@ -151,7 +151,7 @@
             "tags": ["Views", "Forms", "UIViewController"]
         }, {
             "name": "MIMInputToolbar",
-            "url": "https://github.com/FluffyJack/MIMInputToolbar"
+            "url": "https://github.com/FluffyJack/MIMInputToolbar",
             "description": "Input accessory view for your UITextFields and UITextViews.",
             "tags": ["Views", "UITextField", "UITextView"]
         }]
@@ -475,6 +475,12 @@
             "url": "https://github.com/whitesmith/meteor-motion",
             "description": "A wrapper for Meteor DDP with support for Motion Model",
             "tags": ["Meteor", "DDP", "MotionModel", "Model", "Client"]
+        }, {
+            "name": "motion-sqlite3",
+            "gem_name": "motion-sqlite3",
+            "url": "https://github.com/mattgreen/motion-sqlite3",
+            "description": "A minimal wrapper over the SQLite 3 C API for RubyMotion",
+            "tags": ["SQLite", "Persistence"]
         }]
     }, {
         "name": "Templates",
