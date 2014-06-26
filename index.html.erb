@@ -16,6 +16,7 @@
 
     <!-- Le styles -->
     <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/chosen/chosen.min.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -61,10 +62,12 @@
       <div class="row hidden-phone" >
         <div class="span12 category-info">
           <h2>Filter By Tag</h2>
-          <hr class="visible-desktop" />
+          <div class="search-container">
+            <select data-placeholder="Select a Tag..." class="tag-search">
+              <option></option>
+            </select>
+          </div>
           <div style="clear:both;"></div>
-        </div>
-        <div class="span12 tag-search">
         </div>
       </div>
 
@@ -113,6 +116,7 @@
       <hr />
     </div> <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="assets/vendor/chosen/chosen.jquery.min.js" ></script>
     <script src="assets/js/app.js" ></script>
   </body>
 </html>

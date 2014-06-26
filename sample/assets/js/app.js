@@ -1,7 +1,7 @@
 $(function () {
 
   var tags = [];
-  var tagContainer = $('div.tag-search');
+  var tagContainer = $('select.tag-search');
 
   $('div.wrapper-tag').each( function() {
     var txt = $(this).text().trim();
@@ -18,12 +18,14 @@ $(function () {
 
   // Append them to the dom
   for (var tag in tags) {
-    tagContainer.append('<div class="wrapper-tag">' + tags[tag] + '</div>');
+    tagContainer.append('<option value="' + tags[tag] + '">' + tags[tag] + '</option>');
   }
 
-  tagContainer.on('click', 'div.wrapper-tag', function(e){
+  tagContainer.chosen({allow_single_deselect: true});
+
+  tagContainer.on('change', function(e){
     var selected = $(this);
-    var selectedText = selected.text();
+    var selectedText = selected.val();
 
     if(selected.hasClass('active')) {
       selected.removeClass('active');
