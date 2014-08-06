@@ -89,12 +89,12 @@
               </div>
             </div>
             <div class="row wrappers-list">
-              <% halves = category["wrappers"].each_slice( (category["wrappers"].size/2.0).round ).to_a %>
+              <% halves = alphabetize(category["wrappers"], "name").each_slice( (category["wrappers"].size/2.0).round ).to_a %>
               <% halves.each_with_index do |wrappers, col_index| %>
                 <div class="col-md-6 wrappers-column wrappers-column-<%= col_index %>">
-                <% wrappers.each_with_index do |wrapper, index| %>
-                  <%= partial(:wrapper, locals: { wrapper: wrapper }) %>
-                <% end %>
+                  <% wrappers.each_with_index do |wrapper, index| %>
+                    <%= partial(:wrapper, locals: { wrapper: wrapper }) %>
+                  <% end %>
                 </div>
               <% end %>
             </div>
