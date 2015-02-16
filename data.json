@@ -138,9 +138,20 @@
           "url": "https://github.com/clearsightstudio/ProMotion",
           "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
           "tags": [
+            "ProMotion",
             "Storyboard",
             "Screens",
-            "ProMotion"
+            "NSMenu",
+            "Tables",
+            "Toolbars",
+            "UIBarButtonItem",
+            "UIColor",
+            "UIImage",
+            "UITableView",
+            "UITextView",
+            "UIToolbar",
+            "UIViewController",
+            "Views"
           ],
           "platforms": [
             "iOS"
@@ -197,7 +208,7 @@
           ],
           "platforms": [
             "iOS",
-      "OS X"
+            "OS X"
           ]
         },
         {
@@ -543,6 +554,19 @@
           "platforms": [
             "iOS",
             "OS X"
+          ]
+        },
+        {
+          "name": "ProMotion-form",
+          "gem_name": "ProMotion-form",
+          "url": "https://github.com/clearsightstudio/ProMotion-form",
+          "description": "ProMotion::FormScreen - forms the ProMotion way!",
+          "tags": [
+            "Forms",
+            "ProMotion"
+          ],
+          "platforms": [
+            "iOS"
           ]
         }
       ]
@@ -1433,6 +1457,127 @@
           "platforms": [
             "iOS",
             "OS X"
+          ]
+        },
+        {
+          "name": "ProMotion-iap",
+          "gem_name": "ProMotion-iap",
+          "url": "https://github.com/clearsightstudio/ProMotion-iap",
+          "description": "ProMotion-iap is in-app purchase notification support for the popular RubyMotion gem ProMotion.",
+          "tags": [
+            "In App Purchase",
+            "StoreKit",
+            "ProMotion"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "ProMotion-menu",
+          "gem_name": "ProMotion-menu",
+          "url": "https://github.com/clearsightstudio/ProMotion-menu",
+          "description": "RubyMotion gem allowing you to easily setup a facebook or Path style hidden slide menu easily with the ProMotion gem.",
+          "tags": [
+            "NSMenu",
+            "SlideMenu",
+            "ProMotion"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "ProMotion-push",
+          "gem_name": "ProMotion-push",
+          "url": "https://github.com/clearsightstudio/ProMotion-push",
+          "description": "Push notification support for ProMotion.",
+          "tags": [
+            "Push Notifications",
+            "ProMotion"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "ProMotion-map",
+          "gem_name": "ProMotion-map",
+          "url": "https://github.com/clearsightstudio/ProMotion-map",
+          "description": "ProMotion::MapScreen gem. Extracted from ProMotion core.",
+          "tags": [
+            "MapScreen",
+            "MapKit",
+            "ProMotion"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "apex",
+          "gem_name": "apex",
+          "url": "https://github.com/clearsightstudio/apex",
+          "description": "Apex is a RubyMotion web framework for OS X. It uses GCDWebServer under the hood and provides a Sinatra-like router and DSL.",
+          "tags": [
+            "GCDWebServer",
+            "Web Server",
+            "HTTP"
+          ],
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "name": "Toaster",
+          "gem_name": "toaster",
+          "url": "https://github.com/jamonholmgren/toaster",
+          "description": "RubyMotion-android 'Toast' gem. Makes working with Android toasts really easy!",
+          "tags": [
+            "Notifications"
+          ],
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "name": "motion-aws",
+          "gem_name": "motion-aws",
+          "url": "https://github.com/jamonholmgren/motion-aws",
+          "description": "Provides iOS and OSX connectivity to AWS services.",
+          "tags": [
+            "AWS",
+            "API",
+            "Storage"
+          ],
+          "platforms": [
+            "iOS",
+            "OSX"
+          ]
+        },
+        {
+          "name": "Medic",
+          "gem_name": "medic",
+          "url": "https://github.com/ryanlntn/medic",
+          "description": "Is HealthKit's verbose and convoluted API driving you mad? Quick! You need a medic!",
+          "tags": [
+            "HealthKit"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "Indoctrinator",
+          "gem_name": "indoctrinator",
+          "url": "https://github.com/ryanlntn/indoctrinator",
+          "description": "Indoctrinator is a RubyMotion gem that provides a Path style tutorial view for iOS applications.",
+          "tags": [
+            "Tutorial",
+            "Slideshow"
+          ],
+          "platforms": [
+            "iOS"
           ]
         }
       ]
